@@ -24,7 +24,7 @@ pembuatan database dilakukan dengan mengaktifkan server database. kemudian klik 
 ![database nilai kebalik sm mhs](https://github.com/user-attachments/assets/abf00999-3b66-4b29-b29e-e5fde7b9c655)<br><hr>
 
 
-Pada saat pembuatan tabel mahasiswa, kita akan mengisi type data pada setiap kolom yang dibuat dengan id mahasiswa sebagai primary key dan dilanjutkan dengan mengisi data tabael mahasiswa seperti dibawah ini.<br>
+Pada saat pembuatan tabel mahasiswa, kita akan mengisi type data pada setiap kolom yang dibuat dengan id mahasiswa sebagai primary key dan dilanjutkan dengan mengisi data tabael mahasiswa seperti gambar diatas.<br>
 
 
 
@@ -68,7 +68,7 @@ Pembuatan tabel Nilai sama dengan membuat tabel mahasiswa sebelumnya. Pada tabel
 
 
 
-<p><b>Penjelasan :</b>class mahasiswa merupakan turunan dari class Connection.Pada class Mahasiswa terdapat metode tampilkanData dimana metode tersebut akan menyimpan data yang akan ditampilkan. Untuk menampilkan data tabel mahasiswa maka dibuat file indexmahasiswa.php yang berisi objek yang akan ditampilkan oleh class mahasiswa yang memiliki akses ke database. Output yang akan muncul seperti gambar dibawah ini</p><br>
+<p><b>Penjelasan :</b>class mahasiswa merupakan turunan dari class Connection.Pada class Mahasiswa terdapat metode tampilkanData dimana metode tersebut akan menyimpan data yang akan ditampilkan. Untuk menampilkan data tabel mahasiswa maka dibuat file indexmahasiswa.php yang berisi objek yang akan ditampilkan oleh class mahasiswa yang memiliki akses ke database. Output yang akan muncul seperti gambar diatas.</p><br>
 
 
 
