@@ -1,12 +1,12 @@
 <?php 
 include ('koneksi.php'); //koneksi ke file koneksi.php yang memiliki akses database
-$db = new NilaiPoly(); //membuat objek dari class Mahasiswa_1 yang memiliki akses ke database
-$nilai_poly = $db->tampilkanData(); //mengambil semua data mahasiswa yang 
-//disimpan pada variabel $mahasiswa yang dapat digunakan untuk menampilkan data dalam view
+$db = new NilaiPoly(); //membuat objek dari class NilaiPoly yang memiliki akses ke database
+$nilai_poly = $db->tampilkanData(); //mengambil data Nilai turunan yang 
+//disimpan pada variabel $nilai_poly yang dapat digunakan untuk menampilkan data dalam view nilai turunan
 ?>
 
 <?php
-include ('navbar.php'); //menampilkan navbar yang telah dibuat pada file navbar.php agar ditampilkan di view data mahasiswa
+include ('navbar.php'); //menampilkan navbar yang telah dibuat pada file navbar.php agar ditampilkan di view data nilai turunan
 ?>
 
 <!DOCTYPE html>
@@ -28,7 +28,7 @@ include ('navbar.php'); //menampilkan navbar yang telah dibuat pada file navbar.
             <div class="card-header">
              <b> DATA NILAI </b> 
             </div>
-            <!-- membuat table data mahasiswa -->
+            <!-- membuat table data nilai turunan -->
             <div class="card-body">
               <table class="table table-striped table-hover"> 
                 <thead>
@@ -46,7 +46,7 @@ include ('navbar.php'); //menampilkan navbar yang telah dibuat pada file navbar.
                   <?php 
                       foreach ($nilai_poly as $row){
                   ?>
-                <!-- menampilkan data dari tabel mahasiswa yang ada di database -->
+                <!-- menampilkan data dari tabel nilai yang ada di database -->
                   <tr>
                       <td><?php echo $row['nilai_id'] ?></td>
                       <td><?php echo $row['nilai'] ?></td>
