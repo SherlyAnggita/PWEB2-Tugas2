@@ -1,8 +1,8 @@
 <?php 
 include ('koneksi.php'); //untuk mengkoneksikan ke file koneksi.php yang terkoneksi ke database
-$db = new MahasiswaPoly1(); //membuat objek dari class Mahasiswa_1 yang memiliki akses ke database
-$mahasiswa_poly = $db->tampilkanData();//mengambil semua data mahasiswa yang 
-//disimpan pada variabel $mahasiswa yang dapat digunakan untuk menampilkan data dalam view
+$db = new MahasiswaPoly1(); //membuat objek dari class MahasiswaPoly1 yang memiliki akses ke database
+$mahasiswa_poly = $db->tampilkanData();//mengambil  data mahasiswa yang 
+//disimpan pada variabel $mahasiswa_poly yang dapat digunakan untuk menampilkan data dalam view data mahasiswa
 ?>
 
 <?php
