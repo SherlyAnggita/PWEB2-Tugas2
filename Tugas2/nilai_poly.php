@@ -1,7 +1,7 @@
 <?php 
 include ('koneksi.php'); //koneksi ke file koneksi.php yang memiliki akses database
 $db = new NilaiPoly(); //membuat objek dari class NilaiPoly yang memiliki akses ke database
-$nilai_poly = $db->tampilkanData(); //mengambil data Nilai turunan yang 
+$nilai_poly = $db->tampilkanData(); //mengambil data Nilai tertentu yang 
 //disimpan pada variabel $nilai_poly yang dapat digunakan untuk menampilkan data dalam view nilai turunan
 ?>
 
