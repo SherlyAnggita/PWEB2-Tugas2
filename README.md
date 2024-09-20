@@ -26,15 +26,21 @@ pembuatan database dilakukan dengan mengaktifkan server database. kemudian klik 
 
 Pada saat pembuatan tabel mahasiswa, kita akan mengisi type data pada setiap kolom yang dibuat dengan id mahasiswa sebagai primary key dan dilanjutkan dengan mengisi data tabael mahasiswa seperti dibawah ini.<br>
 
+
+
 <h3>b. Tabel Nilai</h3>
-Pembuatan tabel Nilai sama dengan membuat tabel mahasiswa sebelumnya. Pada tabel ini id nilai sebagai primary key dan id mahasiswa, id matkul dan id semester sebagai foreign key. Foreign merupakan primary key yang ada di tabel lain. <br>
 
 
 ![tbl nilai](https://github.com/user-attachments/assets/9be91eec-9abc-4902-b6a9-e2cdc6906c80)<br>
 
 
 
-![database mhs](https://github.com/user-attachments/assets/f6bb7e63-7c48-4850-b59b-d5cf453602bd)<br>
+![database mhs](https://github.com/user-attachments/assets/f6bb7e63-7c48-4850-b59b-d5cf453602bd)<br><hr>
+
+
+
+Pembuatan tabel Nilai sama dengan membuat tabel mahasiswa sebelumnya. Pada tabel ini id nilai sebagai primary key dan id mahasiswa, id matkul dan id semester sebagai foreign key. Foreign merupakan primary key yang ada di tabel lain. <br>
+
 
 
 
