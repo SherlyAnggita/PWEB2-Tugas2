@@ -1,12 +1,12 @@
 <?php 
 include ('koneksi.php'); //untuk mengkoneksikan ke file koneksi.php yang terkoneksi ke database
 $db = new MahasiswaPoly1(); //membuat objek dari class MahasiswaPoly1 yang memiliki akses ke database
-$mahasiswa_poly = $db->tampilkanData();//mengambil  data mahasiswa yang 
-//disimpan pada variabel $mahasiswa_poly yang dapat digunakan untuk menampilkan data dalam view data mahasiswa
+$mahasiswa_poly = $db->tampilkanData();//mengambil  data mahasiswa tertentu yang 
+//disimpan pada variabel $mahasiswa_poly yang dapat digunakan untuk menampilkan data dalam view data mahasiswa turunan
 ?>
 
 <?php
-include ('navbar.php'); //menampilkan navbar yang telah dibuat pada file navbar.php agar ditampilkan di view data mahasiswa
+include ('navbar.php'); //menampilkan navbar yang telah dibuat pada file navbar.php agar ditampilkan di view data mahasiswa turunan
 ?>
 
 <!DOCTYPE html>
@@ -28,7 +28,7 @@ include ('navbar.php'); //menampilkan navbar yang telah dibuat pada file navbar.
             <div class="card-header">
              <b> DATA MAHASISWA </b>
             </div>
-            <!-- membuat table data mahasiswa -->
+            <!-- membuat table data mahasiswa turunan-->
             <div class="card-body">
               <table class="table table-striped table-hover" id="myTable">
                 <thead>
