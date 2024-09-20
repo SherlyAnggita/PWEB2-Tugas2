@@ -105,7 +105,7 @@ Pembuatan tabel Nilai sama dengan membuat tabel mahasiswa sebelumnya. Pada tabel
 
 
 
-<p><b>Penjelasan :</b> Pada class ini metode yang digunakan adalah polymorphism dimana class ini merupakan turunan dari class Connection dan memiliki metode yang sama tetapi data yang akan ditampilkan akan berbeda. Code tersebut hanya akan menampilkan data yang diambil dari tabel  mahasiswa dimana hanya mahasiswa dengan alamat = 'Purbalingga' saja yang akan ditampilkan. seperti output yamg ditampilkan. </p><br>
+<p><b>Penjelasan :</b> Pada class ini metode yang digunakan adalah polymorphism dimana class ini merupakan turunan dari class Connection dan memiliki metode yang sama tetapi data yang akan ditampilkan akan berbeda. Code tersebut hanya akan menampilkan data yang diambil dari tabel  mahasiswa dimana hanya mahasiswa dengan alamat = 'Purbalingga' saja yang akan ditampilkan. seperti output yang ditampilkan. </p><br>
 
 
 
