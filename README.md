@@ -97,6 +97,9 @@ Pembuatan tabel Nilai sama dengan membuat tabel mahasiswa sebelumnya. Pada tabel
 
 
 
+![image](https://github.com/user-attachments/assets/c0212df0-abff-449f-8ed7-63527db66dcf)
+
+
 
 ![image](https://github.com/user-attachments/assets/db87bf41-407a-4671-989b-1165102506dd)<br><hr>
 
@@ -109,6 +112,9 @@ Pembuatan tabel Nilai sama dengan membuat tabel mahasiswa sebelumnya. Pada tabel
 <h2>6. Membuat class NilaiPoly</h2><br>
 
 ![class nilai poly](https://github.com/user-attachments/assets/321f0d43-b495-4b4c-ba95-3cfadfa80d7f)<br>
+
+
+![image](https://github.com/user-attachments/assets/0b007bd4-a3d1-456f-ae5c-fd9c5fa846ca)
 
 
 
